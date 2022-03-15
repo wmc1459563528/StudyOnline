@@ -1,0 +1,585 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        background-color: #f4f5f9;
+    }
+    /* 全局li去点 */
+    li {
+        list-style: none;
+    }
+    /* 全局a去下划线 */
+    a {
+        text-decoration: none;
+    }
+    .w {
+        /* 全局居中设定 */
+        width: 1200px;
+        margin: 0px auto;
+    }
+    .header{
+        /* 导航栏 */
+        height: 42px;
+        margin: 20px auto;
+    }  
+    
+    .pic {
+        /* logo位置 */
+        float: left;
+    }
+    .nav {
+        /* 导航栏 */
+        float: left;
+        margin-left: 60px;
+    }
+    .nav .li {
+        /* 导航栏文字 */
+        float: left;
+        margin-top: 25px;
+    }
+    .li a {
+        /* 文字颜色 */
+        padding: 20px;
+        color: #050505;
+    }
+   .li a:hover {
+       /* 鼠标经过变化 */
+        border-bottom: 3px solid #00a4ff;
+        color: #00a4ff;
+    }
+    .in {
+        /* 输入框 */
+        float: left;
+        height: 36px;
+        width: 410px;
+         margin: 20px auto;
+        border: 1px solid #00a4ff;
+        border-right: none;
+        outline: none;
+        text-indent: 2ch;
+    }
+    .sea button {
+        /* 按钮 */
+        float: left;
+         margin: 20px auto;
+        width: 50px;
+        height: 38px;
+        background:url(../pic/fa-search.png);
+        border: none;
+    }
+    .user {
+        /* 用户 */
+        float: right;
+        margin: 25px auto;
+        
+    }
+    .font {
+        /* 用户后面的字体 */
+        float: right;
+        line-height: 35px;
+        padding-left: 15px;
+        font-size: 12px;
+        color: #666666;
+    }
+    
+    .banner {
+        /* banner部分背景 */
+        background-color: #1c036c;
+        height: 421px;
+        margin-top: 30px;
+    }
+    .head {
+        /* 图片 */
+        height: 421px;
+        background: url(../pic/banner2.png) no-repeat top center;
+    }
+    .subnav {
+        /* banner居中部分 */
+       float: left;
+    }
+    .zy {
+        /* 左侧 */
+        width: 200px;
+        padding-bottom: 20px;
+        background-color: rgba(32, 32, 32, .5);
+        font-size: 14px;
+        text-indent: 2ch;
+    }
+    .zy a {
+        /* 左侧字体颜色 */
+        color: white;
+    }
+    .zy a span {
+        float: right;
+    }
+    .zy a:hover {
+        /* 鼠标放上去颜色 */
+        color: #0584cf;
+        /* color: #00a4ff; */
+    }
+    .zy:first-child {
+        /* 第一个li的内边距 */
+        padding-top: 20px;
+    }
+    /* 右侧课程表 */
+    .course {
+        width: 245px;
+        
+        float: right;
+        margin-top: 60px;
+        margin-right: -85px;
+        background-color: #fff;
+    }
+    /* 我的课程表 */
+    .course h3 {
+        padding: 10px 80px;
+        width: 85px;
+        background-color: #9bceea;
+        color: white;
+        font-size: 16px;
+    }
+    .course li {
+        padding: 10px 0;
+        border-bottom: 1px solid #ccc;
+    }
+    /* 课程副标题 */
+    .course h4 {
+        padding: 0px 40px;
+        color: #4e4e4e;
+        font-size: 14px;
+        font-weight: 400;
+        
+    }
+    /* 课程简介 */
+    .course h5 {
+        padding: 5px 40px;
+        color: #a5a5a5;
+        font-size: 12px;
+    }
+    /* 全部课程 */
+    .course .kechengbiao {
+        width: 60px;
+        height: 30px;
+        margin: 5px 10px;
+        padding:10px 80px;
+        border: 2px solid #00a4ff;
+        color: #00a4ff;
+        font-size: 14px;
+        font-weight: 800;
+    }
+    /* 精品推荐 */
+    .bout {
+        height: 60px;
+        margin-top: 10px;
+        line-height: 60px;
+        background-color: #fff;
+        box-shadow:0px 2px 3px 3px rgba(0, 0, 0, .1);
+      /* border-bottom:2px solid #e1e0e5 ; */
+    }
+    /* 精品模块 */
+     .bout h2 {
+        float: left;
+        margin-left: 35px;
+        color: #00a4ff;
+        font-weight: 400;
+        font-size: 16px;
+     }
+     /* 精品模块导航栏 */
+     .bout .sub {
+        height: 40px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 30px;
+        padding-left: 30px;
+        border-left: 3px solid #bfbfbf;
+        color: #050505;
+        line-height: 40px;
+        font-size: 16px;
+     }
+     
+     .sub a:hover{
+         color: #00a4ff;
+     }
+     /* 修改兴趣 */
+     .bout p {
+        float: right;
+        margin-right: 35px;
+        color: #00a4ff;
+        font-size: 14px;
+     }
+     /* 精品推荐 */
+     .box {
+         height: 610px;
+         margin-top: 40px;
+     }
+     /* 精品推荐头部 */
+     .box-had{
+         height: 25px;
+     }
+     /* 精品推荐 */
+     .box-had h3 {
+          float: left;
+          font-size:20px;
+          color: #838485;
+          font-weight: 400;
+     }
+     /* 查看全部 */
+     .box-had p {
+         float: right;
+         padding-right: 32px;
+         font-size: 12px;
+         color: #b1b1b1;
+         line-height: 25px;
+     }
+
+     .box-had p:hover {
+        color: #00a4ff;
+     }
+
+    .box .box-bd {
+         /* 下半部分 */
+        height: 555px;
+        margin-top: 25px;
+     }
+     /* 每一个详情的的宽高 */
+     .box-bd .pic {
+        width: 230px;
+        height: 270px;
+        float: left;
+        padding-right: 9px;
+        background-color: #fff;
+        
+     }
+     .box-bd img {
+         /* 图片 */
+         height: 153px;
+         
+     }
+    /* 描述 */
+     .box-bd .pic h5 {
+        
+         font-size: 14px;
+         padding: 0 20px;
+         font-weight: 400;
+         color: #050505;
+     }
+     /* 高级 */
+     .box-bd .pic .p1 {
+         float: left;
+         padding: 0 20px;
+         font-size: 12px;
+         color: #ff7c2d;
+     }
+     /*在线人数 */
+     .box-bd .pic .p2{
+         float: left;
+         padding: 0 2px;
+         font-size: 12px;
+         color: #999;
+     }
+     /*在线人数 */
+      .box-bd .pic .p3{
+         float: left;
+         padding: 0 2px;
+         font-size: 12px;
+         color: #999;
+     }
+     /* 侧边导航 */
+     .sidebar {
+         height: 430px;
+         width: 120px;
+         float: left;
+         background-color: #fff;
+         line-height: 30px;
+         padding-left: 2em;
+         margin-top: -200px;
+         font-size: 13px;
+         
+     }
+     /* 侧边导航 */
+     .sidebar li a {
+         color: #050505;
+     }
+    /* 侧边导航 */
+     .sidebar a:hover {
+         color: #00a4ff;
+     }
+     /* 编程入门 */
+     .getting {
+         height: 500px;
+     }
+     .getting .pro {
+         height: 25px;
+     }
+     /* 编程入门头部 */
+     .getting h2{
+        float: left;
+        font-size:20px; 
+        color: #838485;
+        font-weight: 400;
+        line-height: 25px;
+     }
+     .getting  p{
+        float: left;
+       padding-right: 30px;
+        line-height: 25px; 
+     }
+     /* 热门位置 */
+     .getting  .first {
+         margin-left: 350px;
+     }
+     .getting a {
+         color: #b1b1b1;
+     }
+    .getting  a:hover {
+          color: #00a4ff;
+     }
+      /* 查看全部 */
+     .getting span {
+         float: right;
+         padding-right: 32px;
+         font-size: 12px;
+         color: #b1b1b1;
+         line-height: 25px;
+     }
+     .getting .pro span:hover {
+        color: #00a4ff;
+    }
+
+          /* 数据分析师 */
+     .analyze {
+         height: 500px;
+         margin-top: 20px;
+     }
+    .analyze .pro {
+         margin-top: 20px;
+         height: 25px;
+     }
+     /* 编程入门头部 */
+     .analyze h2{
+        float: left;
+       
+        font-size:20px; 
+        color: #838485;
+        font-weight: 400;
+        line-height: 25px;
+     }
+     .analyze  p{
+        float: left;
+       padding-right: 30px;
+        line-height: 25px; 
+     }
+     /* 热门位置 */
+     .analyze  .first {
+         margin-left: 350px;
+     }
+     .analyze a {
+         color: #b1b1b1;
+     }
+    .analyze  a:hover {
+          color: #00a4ff;
+     }
+      /* 查看全部 */
+     .analyze span {
+         float: right;
+         padding-right: 32px;
+         font-size: 12px;
+         color: #b1b1b1;
+         line-height: 25px;
+     }
+    .analyze .pro span:hover {
+        color: #00a4ff;
+    }
+
+     /* 数据分析、编程入门通用 */
+    .brief {
+        width: 1300px;
+        margin-top: 30px;
+    }
+    /* 左侧图片 */
+    .brief .pic1 {
+        width: 150px;
+        height: 410px;
+        float: left;
+
+    }
+    /* 右侧图片 */
+    .brief .pic2 {
+        width: 1000px;
+        margin-left: 30px;
+    }
+    .brief img {
+         /* 图片 */
+         height: 150px;
+         
+     }
+    /* 每一个详情 通用 */
+    .brief .pic {
+        height: 230px;
+        width: 228px;
+        margin-left: 30px;
+        margin-top: 30px;
+        background-color: #fff;
+     }
+    /* 描述 */
+      .brief .pic h5 {
+         font-size: 14px;
+         padding: 0 8px;
+         font-weight: 400;
+         color: #050505;
+     }
+     /* 高级 */
+      .brief .pic .p1 {
+         float: left;
+         padding: 0 20px;
+         font-size: 12px;
+         color: #ff7c2d;
+         
+     }
+     /*在线人数 */
+     .brief .pic .p2{
+         float: left;
+         padding: 0 2px;
+         font-size: 12px;
+         color: #999;
+     }
+     /*在线人数 */
+       .brief .pic .p3{
+         float: left;
+         padding: 0 2px;
+         font-size: 12px;
+         color: #999;
+     }
+    
+
+/* 机器学习工程师 */
+    .mac h2{
+        float: left;
+       
+        font-size:20px; 
+        color: #838485;
+        font-weight: 400;
+        line-height: 25px;
+     }
+     .mac  p{
+        float: left;
+       padding-right: 30px;
+        line-height: 25px; 
+     }
+     /* 热门位置 */
+     .mac  .first {
+         margin-left: 350px;
+     }
+     .mac a {
+         color: #b1b1b1;
+     }
+    .mac  a:hover {
+          color: #00a4ff;
+     }
+      /* 查看全部 */
+     .mac span {
+         float: right;
+         padding-right: 32px;
+         font-size: 12px;
+         color: #b1b1b1;
+         line-height: 25px;
+     }
+    .mac .pro span:hover {
+        color: #00a4ff;
+    }
+    /* 前端开发工程师 */
+    .lea h2{
+        float: left;
+        font-size:20px; 
+        color: #838485;
+        font-weight: 400;
+        line-height: 25px;
+     }
+    .lea .pro {
+        margin-top: 100px;
+    }
+     .lea  p{
+        float: left;
+       padding-right: 30px;
+        line-height: 25px; 
+     }
+     /* 热门位置 */
+     .lea  .first {
+         margin-left: 350px;
+     }
+     .lea a {
+         color: #b1b1b1;
+     }
+    .lea  a:hover {
+          color: #00a4ff;
+     }
+      /* 查看全部 */
+     .lea span {
+         float: right;
+         padding-right: 32px;
+         font-size: 12px;
+         color: #b1b1b1;
+         line-height: 25px;
+     }
+    .lea .pro span:hover {
+        color: #00a4ff;
+    }
+     /* 前端开发工程师下半部分 */
+     .lea .box-bd {
+        float: left;
+        height: 300px;
+        margin-top: 25px;
+     }
+     /* 机器学习工程师下半部分 */
+    .mac .box-bd {
+        float: left;
+        height: 300px;
+        margin-top: 25px;
+     }
+    /* 底部 */
+    .bottom {
+        float: left;
+        width: 100%;
+        height: 300px;
+        background-color: #fff;
+    }
+    /*  */
+   .tabbar p {
+       font-size: 12px;
+   }
+    .tabbar .download{
+       width: 60px;
+       margin-top: 10px;
+       margin-left: 20px;
+       padding: 5px 20px;
+       font-size: 14px;
+       border:1px solid #00a4ff;
+       color: #00a4ff;
+   }
+    .about .dl{
+       float: right;
+       font-size: 16px;
+   }
+   .about .dl1 {
+       margin-top: -120px;
+       margin-right: 100px;
+   }
+   .about .dl2 {
+       margin-top: -120px;
+       margin-right: 230px;
+   }
+   .about .dl3 {
+       margin-top: -120px;
+       margin-right: 100px;
+   }
+   .about dd:first-child {
+        margin-top: 8px;
+   }
+   .about dd{
+       font-size: 12px;
+       color: #050505;
+   }
+   .about dd:hover {
+       color: #00a4ff
+   }
