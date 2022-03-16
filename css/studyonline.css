@@ -287,7 +287,11 @@
      }
      /* 侧边导航 */
      .sidebar {
-         height: 430px;
+        
+         /* 粘性定位 */
+         position:sticky;
+         top:0px;            
+    /*height: 430px; */
          width: 120px;
          float: left;
          background-color: #fff;
@@ -297,6 +301,12 @@
          font-size: 13px;
          
      }
+
+   .sidebar p {
+        font-size: 18px;
+    }
+
+
      /* 侧边导航 */
      .sidebar li a {
          color: #050505;
